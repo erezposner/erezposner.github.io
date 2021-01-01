@@ -1,0 +1,333 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+	xmlns:content="http://purl.org/rss/1.0/modules/content/"
+	xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+	xmlns:dc="http://purl.org/dc/elements/1.1/"
+	xmlns:atom="http://www.w3.org/2005/Atom"
+	xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+	xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+	>
+
+<channel>
+	<title>root</title>
+	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
+	<link>./../../../index.html</link>
+	<description></description>
+	<lastBuildDate>Thu, 31 Dec 2020 22:08:33 +0000</lastBuildDate>
+	<language>en-US</language>
+	<sy:updatePeriod>
+	hourly	</sy:updatePeriod>
+	<sy:updateFrequency>
+	1	</sy:updateFrequency>
+	<generator>https://wordpress.org/?v=5.6</generator>
+
+<image>
+	<url>./../../../wp-content/uploads/2021/01/tr.png</url>
+	<title>root</title>
+	<link>./../../../index.html</link>
+	<width>32</width>
+	<height>32</height>
+</image> 
+	<item>
+		<title>A single camera based floating virtual keyboard with improved touch detection</title>
+		<link>./../../../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html</link>
+					<comments>./../../../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 22:07:59 +0000</pubDate>
+				<category><![CDATA[Portfolio]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=481</guid>
+
+					<description><![CDATA[Published in: 2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart&#8230;&#160;<a href="./../../../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">A single camera based floating virtual keyboard with improved touch detection</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h4><strong>Published in: </strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a><br></h4>
+
+
+
+<p>Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart phone&#8217;s screen. The user “presses” the virtual keys thus typing the desired input text. In this work we have implemented a single standard camera-based virtual keyboard, by improving shadow-based touch detection. The proposed solution is applicable to any surface. The system has been implemented on an Android phone, operates in real time, and gives excellent results.</p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Automatic identification of positive or negative language</title>
+		<link>./../../../2020/12/31/automatic-identification-of-positive-or-negative-language/index.html</link>
+					<comments>./../../../2020/12/31/automatic-identification-of-positive-or-negative-language/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 22:06:33 +0000</pubDate>
+				<category><![CDATA[Portfolio]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=478</guid>
+
+					<description><![CDATA[Published in:&#160;2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Personal coaching, performed by professionals such as psychologists, usually includes training for business as well as social situations such as job interviews, business meetings, interaction with a customer service provider, and more. This requires careful preparation in which, among other traits, the trainees&#8230;&#160;<a href="./../../../2020/12/31/automatic-identification-of-positive-or-negative-language/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Automatic identification of positive or negative language</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h4><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a></h4>
+
+
+
+<p>Personal coaching, performed by professionals such as psychologists, usually includes training for business as well as social situations such as job interviews, business meetings, interaction with a customer service provider, and more. This requires careful preparation in which, among other traits, the trainees need to pay attention to the words they choose in the interaction, in order to make a positive impression. To achieve this goal, we have developed a coaching system using speech recognition, which enables both monitoring by the coaching professional and self-training by the user. By providing timely indications as to when the user employs positive or negative expressions as defined by the psychologist, the system helps users develop self-control and awareness regarding the language they use. The system consists of adjusted voice activity detection (VAD) and key word spotting (KWS) algorithms, implemented together with an interactive UI into an Android-based application, available on cellular phones.</p>
+
+
+
+<p><a href="https://ieeexplore.ieee.org/abstract/document/6377047">The full paper is available on IEEE</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/31/automatic-identification-of-positive-or-negative-language/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Motion Segmentation Using Locally Affine Atom Voting</title>
+		<link>./../../../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/index.html</link>
+					<comments>./../../../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 22:03:44 +0000</pubDate>
+				<category><![CDATA[Portfolio]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=473</guid>
+
+					<description><![CDATA[We present a novel method for motion segmentation called LAAV (Locally Affine Atom Voting). Our model&#8217;s main novelty is using sets of features to segment motion for all features in the scene. LAAV acts as a pre-processing pipeline stage for features in the image, followed by a fine-tuned version of the state-of-the-art Random Voting (RV)&#8230;&#160;<a href="./../../../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Motion Segmentation Using Locally Affine Atom Voting</span></a>]]></description>
+										<content:encoded><![CDATA[
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="./../../../wp-content/uploads/2020/12/111.png" alt="" class="wp-image-475" width="366" height="315"/></figure></div>
+
+
+
+<p>We present a novel method for motion segmentation called LAAV (Locally Affine Atom Voting). Our model&#8217;s main novelty is using sets of features to segment motion for all features in the scene. LAAV acts as a pre-processing pipeline stage for features in the image, followed by a fine-tuned version of the state-of-the-art Random Voting (RV) method. Unlike standard approaches, LAAV segments motion using feature-set affinities instead of pair-wise affinities between all features; therefore, it significantly simplifies complex scenarios and reduces the computational cost without a loss of accuracy. We describe how the challenges encountered by using previously suggested approaches are addressed using our model. We then compare our algorithm with several state-of-the-art methods. Experiments shows that our approach achieves the most accurate motion segmentation results and, in the presence of measurement noise, achieves comparable results to the other algorithms.</p>
+
+
+
+<p><a href="https://arxiv.org/abs/1907.06091">The full paper is available on arxiv</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How To Create Awesome Noise That Is Actually Real</title>
+		<link>./../../../2020/12/31/how-to-create-awesome-noise-that-is-actually-real/index.html</link>
+					<comments>./../../../2020/12/31/how-to-create-awesome-noise-that-is-actually-real/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Thu, 31 Dec 2020 21:58:55 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">./../../../index.html?p=469</guid>
+
+					<description><![CDATA[if you’ve ever looked at a digital image, you couldn’t fail to notice this grainy agitated noise differentiating two adjacent pixels viewing on practically the same object. Why on God’s green earth would two pixels capturing clear sky, for example, won’t have the same gray level value? The full story is available on Medium]]></description>
+										<content:encoded><![CDATA[
+<p>if you’ve ever looked at a digital image, you couldn’t fail to notice this grainy agitated noise differentiating two adjacent pixels viewing on practically the same object. Why on God’s green earth would two pixels capturing clear sky, for example, won’t have the same gray level value?</p>
+
+
+
+<p><a href="https://arxiv.org/abs/1907.06091">The full story is available on Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/31/how-to-create-awesome-noise-that-is-actually-real/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>random paper 2020</title>
+		<link>./../../../2020/12/29/random-paper-2020/index.html</link>
+					<comments>./../../../2020/12/29/random-paper-2020/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Tue, 29 Dec 2020 16:55:17 +0000</pubDate>
+				<category><![CDATA[paper_2020]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=146</guid>
+
+					<description><![CDATA[]]></description>
+										<content:encoded><![CDATA[]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/29/random-paper-2020/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Speedup your CNN using Fast Dense Feature Extraction and PyTorch</title>
+		<link>./../../../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html</link>
+					<comments>./../../../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 20:33:42 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=106</guid>
+
+					<description><![CDATA[Back in March, we open-sourced our&#160;implementation of “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers”, Although not broadly known, The 2017 BMVC published paper offers an efficient and elegant solution on how to avoid computational redundancy when using patch based Convolution Neural networks. So in this post I’ll explain how the&#8230;&#160;<a href="./../../../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Speedup your CNN using Fast Dense Feature Extraction and PyTorch</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p id="d17e">Back in March, we open-sourced our&nbsp;<a href="https://github.com/erezposner/Fast_Dense_Feature_Extraction">implementation of “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers</a>”, Although not broadly known, The 2017 BMVC published paper offers an efficient and elegant solution on how to avoid computational redundancy when using patch based Convolution Neural networks. So in this post I’ll explain how the model works and show how to use it in a real applications.</p>
+
+
+
+<p id="37c4">I’ll cover two things: First, an&nbsp;overview of the method named “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers”. And, second, how to use this approach on an existing trained patch network to speed up inference time.</p>
+
+
+
+<p><a href="https://towardsdatascience.com/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch-dc32acbf12ef">The full story is available Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>How To Perform Image Restoration Absolutely DataSet Free</title>
+		<link>./../../../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html</link>
+					<comments>./../../../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 20:32:34 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=103</guid>
+
+					<description><![CDATA[Image restoration with neural networks without learning Deep learning requires a large amount of data.&#160;This phrase has become popular among people who consider applying deep learning methods to their data. Concerns often made when not having “big” enough data mainly derive from the common belief that deep learning&#160;only&#160;works using massive amount of data. Well, This&#8230;&#160;<a href="./../../../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How To Perform Image Restoration Absolutely DataSet Free</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Image restoration with neural networks without learning</strong></p>
+
+
+
+<p id="f85d"><strong>Deep learning requires a large amount of data.&nbsp;</strong>This phrase has become popular among people who consider applying deep learning methods to their data. Concerns often made when not having “big” enough data mainly derive from the common belief that deep learning&nbsp;<mark>only</mark>&nbsp;works using massive amount of data. Well, This is not true.</p>
+
+
+
+<p id="f633">Although for some cases you actually do need massive amount of data, there are some networks that could be trained on a single image. On top of that, In practice, even without large datasets, the structure of the network itself could be preventing deep networks from over-fitting.</p>
+
+
+
+<p><a href="https://towardsdatascience.com/how-to-perform-image-restoration-absolutely-dataset-free-d08da1a1e96d">The full story is available Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Detection Free Human Instance Segmentation using Pose2Seg and PyTorch</title>
+		<link>./../../../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html</link>
+					<comments>./../../../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 20:31:22 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=100</guid>
+
+					<description><![CDATA[Taking into consideration the uniqueness of Human In recent years, research related to “humans” in the computer vision community has become increasingly active because of the high demand for real-life applications, among them is instance segmentation. The standard approach to image instance segmentation is to perform the object detection first, and then segment the object&#8230;&#160;<a href="./../../../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Detection Free Human Instance Segmentation using Pose2Seg and PyTorch</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Taking into consideration the uniqueness of Human</strong></p>
+
+
+
+<p id="66d4">In recent years, research related to “humans” in the computer vision community has become increasingly active because of the high demand for real-life applications, among them is instance segmentation.</p>
+
+
+
+<p id="b5c7">The standard approach to image instance segmentation is to perform the object detection first, and then segment the object from the detection bounding-box. More recently, deep learning methods like&nbsp;<a href="https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46">Mask R-CNN</a>&nbsp;perform them jointly. However, as human associated tasks becoming more common like human recognition, tracking etc. one might wonder why does the uniqueness of the “human” category does not taken into account.</p>
+
+
+
+<p><a href="https://towardsdatascience.com/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch-72f48dc4d23e">The full story is available Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Deep Video Portraits</title>
+		<link>./../../../2020/12/28/whats-on-my-desk/index.html</link>
+					<comments>./../../../2020/12/28/whats-on-my-desk/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 17:49:27 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=3</guid>
+
+					<description><![CDATA[Photo-realistic re-animation of portrait videos using only an input video Synthesizing and editing video portraits—i.e., videos framed to show a person’s head and upper body—is an important problem in computer graphics, with applications in video editing and movie postproduction, visual effects, visual dubbing, virtual reality, and telepresence, among others. The problem of synthesizing a photo-realistic&#8230;&#160;<a href="./../../../2020/12/28/whats-on-my-desk/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Deep Video Portraits</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Photo-realistic re-animation of portrait videos using only an input video</strong></p>
+
+
+
+<p id="470c">Synthesizing and editing video portraits—i.e., videos framed to show a person’s head and upper body—is an important problem in computer graphics, with applications in video editing and movie postproduction, visual effects, visual dubbing, virtual reality, and telepresence, among others.</p>
+
+
+
+<p id="c77b">The problem of synthesizing a photo-realistic video portrait of a target actor that mimics the actions of a source actor—and especially where the source and target actors can be different subjects—is still an open problem.</p>
+
+
+
+<p id="1921">There hasn’t been an approach that enables one to take full control of the rigid head pose, face expressions, and eye motion of the target actor; even face identity can be modified to some extent. Until now.</p>
+
+
+
+<p id="b3dc">In this post, I’m going to review&nbsp;<a href="https://arxiv.org/pdf/1805.11714.pdf">“Deep Video Portraits”</a>, which presents a novel approach that enables photo-realistic re-animation of portrait videos using only an input video.</p>
+
+
+
+<p id="c35c">In this post, I’ll cover two things: First, a short definition of a DeepFake. Second, an overview of the paper “Deep Video Portraits” in the words of the authors.</p>
+
+
+
+<p><a href="https://heartbeat.fritz.ai/deep-video-portraits-f0f4a136546a">The full story is available Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/28/whats-on-my-desk/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>HAMR — 3D Hand Shape and Pose Estimation from a Single RGB Image</title>
+		<link>./../../../2020/12/28/my-daily-planner/index.html</link>
+					<comments>./../../../2020/12/28/my-daily-planner/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Mon, 28 Dec 2020 17:49:26 +0000</pubDate>
+				<category><![CDATA[Blogs]]></category>
+		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=4</guid>
+
+					<description><![CDATA[End-to-end Hand Mesh Recovery from a Monocular RGB Image. In recent years, research related to vision-based 3D image processing has become increasingly active, given its many applications in virtual reality (VR) and augmented reality (AR). Despite years of studies, however, there are still images that machines struggle to understand—one of those is images of human&#8230;&#160;<a href="./../../../2020/12/28/my-daily-planner/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">HAMR — 3D Hand Shape and Pose Estimation from a Single RGB Image</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>End-to-end Hand Mesh Recovery from a Monocular RGB Image.</strong></p>
+
+
+
+<p id="a16f">In recent years, research related to vision-based 3D image processing has become increasingly active, given its many applications in virtual reality (VR) and augmented reality (AR). Despite years of studies, however, there are still images that machines struggle to understand—one of those is images of human hands.</p>
+
+
+
+<p id="8753">Hand image understanding targets the problem of recovering the spatial configuration of hands from natural RGB or/and depth images. This task has many applications, such as human-machine interaction and virtual/augmented reality, among others.</p>
+
+
+
+<p id="8f35">Estimating the spatial configuration of hand images is very challenging due to the variations in appearance, self-occlusion, and complex articulations. While many existing works considered markerless image-based understanding, most of them require depth cameras or multi-view images to handle these difficulties.</p>
+
+
+
+<p id="1493">Considering RGB cameras are more widely available than depth cameras, some recent work has started looking into 3D hand analysis from monocular RGB images, mainly focusing on estimating sparse 3D hand joint locations while ignoring dense 3D hand shapes.</p>
+
+
+
+<p id="c184">However, many immersive VR and AR applications often require accurate estimation of both 3D hand pose and 3D hand shape. This brings about a more challenging task: How can we jointly estimate not only the 3D hand joint locations, but also the full 3D mesh of a hand’s surface from a single RGB image?</p>
+
+
+
+<p><a href="https://heartbeat.fritz.ai/hamr-3d-hand-shape-and-pose-estimation-from-a-single-rgb-image-225cba26ce2">The full story is available Medium</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../../../2020/12/28/my-daily-planner/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+	</channel>
+</rss>
