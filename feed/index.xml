@@ -12,7 +12,7 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description></description>
-	<lastBuildDate>Thu, 31 Dec 2020 22:08:33 +0000</lastBuildDate>
+	<lastBuildDate>Thu, 21 Jan 2021 12:12:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
@@ -28,22 +28,98 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences</title>
+		<link>./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html</link>
+					<comments>./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sun, 03 Jan 2021 21:18:22 +0000</pubDate>
+				<category><![CDATA[Papers 2020]]></category>
+		<guid isPermaLink="false">./../index.html?p=815</guid>
+
+					<description><![CDATA[tl;dr End-to-end deep-learning based approach to resolve the point cloud registration problem. Main steps are: LPD-Net is used to extract features and aggregate them with graph network. Self &#8211; attention mechanism is utilized to enhance the structure information of the PCL Cross &#8211; attention mechanism is deisned to enhace correpondences between the two PCLs Registration&#8230;&#160;<a href="./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences</span></a>]]></description>
+										<content:encoded><![CDATA[
+<h2>tl;dr</h2>
+
+
+
+<p>End-to-end deep-learning based approach to resolve the point cloud registration problem. Main steps are:</p>
+
+
+
+<ul><li>LPD-Net is used to extract features and aggregate them with graph network. </li><li>Self &#8211; attention mechanism is utilized to enhance the structure information of the PCL</li><li>Cross &#8211; attention mechanism is deisned to enhace correpondences between the two PCLs</li><li>Registration is then solved using SVD</li></ul>
+
+
+
+<h2>Overall Impression</h2>
+
+
+
+<p>The authrs claim to support registration without initial predicition. They present LPD-Registration. </p>
+
+
+
+<p>LPD-Registration utilizes a modified version of LPD-Net to extract the local features and aggregates them with the k-NN based graph network Nx3 -&gt; N512 as it&#8217;s output. </p>
+
+
+
+<p>They remove the process of aggregating local features to a global descriptor vector, and simplify the network by only performing graph-based neighborhood aggregation in the Cartesian space as well as the feature space.</p>
+
+
+
+<p>The &#8220;Self-supervised pre-training algorithm for the revised LPD-Net&#8221; is quite shady and requires 1-to-1 correspondence between P1 and P2.</p>
+
+
+
+<p>self-attention mechanism is used to enhance the static structure information in the largescale point cloud and exclude the parts which are difficult to match.  basically uses softmax on the descriptors as a damper to points weights.</p>
+
+
+
+<p>Cross Attention is used to enhance correpondences and a virtual correponding points is presented to offer alternative correspondences out of the Top-K points.</p>
+
+
+
+<p>The loss for the training is correspondence loss including the accuracy of the virtual points as well. Worth mentioning that pose loss is not used here.</p>
+
+
+
+<h2>Key Ideas</h2>
+
+
+
+<ul><li> investigate the point cloud registration problem of large-scale point<br>clouds with local sparsity and partially correspondence</li></ul>
+
+
+
+<ul><li>end-to-end deep-learning approach is proposed by incorporating the self attention and cross attention mechanism to enhance the static structure information and indicate the correspondence of two point clouds.</li><li></li></ul>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>A single camera based floating virtual keyboard with improved touch detection</title>
 		<link>./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html</link>
 					<comments>./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html#respond</comments>
 		
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<pubDate>Thu, 31 Dec 2020 22:07:59 +0000</pubDate>
-				<category><![CDATA[Portfolio]]></category>
+				<category><![CDATA[MyPublications]]></category>
 		<guid isPermaLink="false">./../index.html?p=481</guid>
 
-					<description><![CDATA[Published in: 2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart&#8230;&#160;<a href="./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">A single camera based floating virtual keyboard with improved touch detection</span></a>]]></description>
+					<description><![CDATA[Published in:&#160;2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart&#8230;&#160;<a href="./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">A single camera based floating virtual keyboard with improved touch detection</span></a>]]></description>
 										<content:encoded><![CDATA[
-<h4><strong>Published in: </strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a><br></h4>
+<h4><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a><br></h4>
 
 
 
 <p>Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart phone&#8217;s screen. The user “presses” the virtual keys thus typing the desired input text. In this work we have implemented a single standard camera-based virtual keyboard, by improving shadow-based touch detection. The proposed solution is applicable to any surface. The system has been implemented on an Android phone, operates in real time, and gives excellent results.</p>
+
+
+
+<p><a href="https://ieeexplore.ieee.org/document/6377072">The full paper is available on IEEE</a></p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/feed/index.html</wfw:commentRss>
@@ -58,7 +134,7 @@
 		
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<pubDate>Thu, 31 Dec 2020 22:06:33 +0000</pubDate>
-				<category><![CDATA[Portfolio]]></category>
+				<category><![CDATA[MyPublications]]></category>
 		<guid isPermaLink="false">./../index.html?p=478</guid>
 
 					<description><![CDATA[Published in:&#160;2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Personal coaching, performed by professionals such as psychologists, usually includes training for business as well as social situations such as job interviews, business meetings, interaction with a customer service provider, and more. This requires careful preparation in which, among other traits, the trainees&#8230;&#160;<a href="./../2020/12/31/automatic-identification-of-positive-or-negative-language/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Automatic identification of positive or negative language</span></a>]]></description>
@@ -86,7 +162,7 @@
 		
 		<dc:creator><![CDATA[root]]></dc:creator>
 		<pubDate>Thu, 31 Dec 2020 22:03:44 +0000</pubDate>
-				<category><![CDATA[Portfolio]]></category>
+				<category><![CDATA[MyPublications]]></category>
 		<guid isPermaLink="false">./../index.html?p=473</guid>
 
 					<description><![CDATA[We present a novel method for motion segmentation called LAAV (Locally Affine Atom Voting). Our model&#8217;s main novelty is using sets of features to segment motion for all features in the scene. LAAV acts as a pre-processing pipeline stage for features in the image, followed by a fine-tuned version of the state-of-the-art Random Voting (RV)&#8230;&#160;<a href="./../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Motion Segmentation Using Locally Affine Atom Voting</span></a>]]></description>
@@ -281,50 +357,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../2020/12/28/whats-on-my-desk/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>HAMR — 3D Hand Shape and Pose Estimation from a Single RGB Image</title>
-		<link>./../2020/12/28/my-daily-planner/index.html</link>
-					<comments>./../2020/12/28/my-daily-planner/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 17:49:26 +0000</pubDate>
-				<category><![CDATA[Blogs]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=4</guid>
-
-					<description><![CDATA[End-to-end Hand Mesh Recovery from a Monocular RGB Image. In recent years, research related to vision-based 3D image processing has become increasingly active, given its many applications in virtual reality (VR) and augmented reality (AR). Despite years of studies, however, there are still images that machines struggle to understand—one of those is images of human&#8230;&#160;<a href="./../2020/12/28/my-daily-planner/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">HAMR — 3D Hand Shape and Pose Estimation from a Single RGB Image</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p><strong>End-to-end Hand Mesh Recovery from a Monocular RGB Image.</strong></p>
-
-
-
-<p id="a16f">In recent years, research related to vision-based 3D image processing has become increasingly active, given its many applications in virtual reality (VR) and augmented reality (AR). Despite years of studies, however, there are still images that machines struggle to understand—one of those is images of human hands.</p>
-
-
-
-<p id="8753">Hand image understanding targets the problem of recovering the spatial configuration of hands from natural RGB or/and depth images. This task has many applications, such as human-machine interaction and virtual/augmented reality, among others.</p>
-
-
-
-<p id="8f35">Estimating the spatial configuration of hand images is very challenging due to the variations in appearance, self-occlusion, and complex articulations. While many existing works considered markerless image-based understanding, most of them require depth cameras or multi-view images to handle these difficulties.</p>
-
-
-
-<p id="1493">Considering RGB cameras are more widely available than depth cameras, some recent work has started looking into 3D hand analysis from monocular RGB images, mainly focusing on estimating sparse 3D hand joint locations while ignoring dense 3D hand shapes.</p>
-
-
-
-<p id="c184">However, many immersive VR and AR applications often require accurate estimation of both 3D hand pose and 3D hand shape. This brings about a more challenging task: How can we jointly estimate not only the 3D hand joint locations, but also the full 3D mesh of a hand’s surface from a single RGB image?</p>
-
-
-
-<p><a href="https://heartbeat.fritz.ai/hamr-3d-hand-shape-and-pose-estimation-from-a-single-rgb-image-225cba26ce2">The full story is available Medium</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/28/my-daily-planner/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
