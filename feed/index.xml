@@ -12,13 +12,13 @@
 	<atom:link href="./index.html" rel="self" type="application/rss+xml" />
 	<link>./../index.html</link>
 	<description></description>
-	<lastBuildDate>Thu, 21 Jan 2021 12:12:29 +0000</lastBuildDate>
+	<lastBuildDate>Wed, 23 Aug 2023 12:27:29 +0000</lastBuildDate>
 	<language>en-US</language>
 	<sy:updatePeriod>
 	hourly	</sy:updatePeriod>
 	<sy:updateFrequency>
 	1	</sy:updateFrequency>
-	<generator>https://wordpress.org/?v=5.6</generator>
+	<generator>https://wordpress.org/?v=6.3</generator>
 
 <image>
 	<url>./../wp-content/uploads/2021/01/tr.png</url>
@@ -28,6 +28,130 @@
 	<height>32</height>
 </image> 
 	<item>
+		<title>Colonoscopy Landmark Detection using Vision Transformers</title>
+		<link>./../2023/08/23/colonoscopy-landmark-detection-using-vision-transformers/index.html</link>
+					<comments>./../2023/08/23/colonoscopy-landmark-detection-using-vision-transformers/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Wed, 23 Aug 2023 12:19:15 +0000</pubDate>
+				<category><![CDATA[MyPublications]]></category>
+		<guid isPermaLink="false">./../index.html?p=848</guid>
+
+					<description><![CDATA[Colonoscopy is a routine outpatient procedure used to examine the colon and rectum for any abnormalities including polyps, diverticula and narrowing of colon structures. A significant amount of the clinician&#8217;s time is spent in post-processing snapshots taken during the colonoscopy procedure, for maintaining medical records or further investigation. Automating this step can save time and&#8230;&#160;<a href="./../2023/08/23/colonoscopy-landmark-detection-using-vision-transformers/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Colonoscopy Landmark Detection using Vision Transformers</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Colonoscopy is a routine outpatient procedure used to examine the colon and rectum for any abnormalities including polyps, diverticula and narrowing of colon structures. A significant amount of the clinician&#8217;s time is spent in post-processing snapshots taken during the colonoscopy procedure, for maintaining medical records or further investigation. Automating this step can save time and improve the efficiency of the process. In our work, we have collected a dataset of 120 colonoscopy videos and 2416 snapshots taken during the procedure, that have been annotated by experts. Further, we have developed a novel, vision-transformer based landmark detection algorithm that identifies key anatomical landmarks (the appendiceal orifice, ileocecal valve/cecum landmark and rectum retroflexion) from snapshots taken during colonoscopy. Our algorithm uses an adaptive gamma correction during preprocessing to maintain a consistent brightness for all images. We then use a vision transformer as the feature extraction backbone and a fully connected network based classifier head to categorize a given frame into four classes: the three landmarks or a non-landmark frame. We compare the vision transformer (ViT-B/16) backbone with ResNet-101 and ConvNext-B backbones that have been trained similarly. We report an accuracy of 82% with the vision transformer backbone on a test dataset of snapshots.</p>
+
+
+
+<p><a href="https://arxiv.org/abs/2209.11304">The Full paper is available on Arxiv</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/08/23/colonoscopy-landmark-detection-using-vision-transformers/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>SimCol3D &#8211; 3D Reconstruction during Colonoscopy Challenge</title>
+		<link>./../2023/07/23/simcol3d-3d-reconstruction-during-colonoscopy-challenge/index.html</link>
+					<comments>./../2023/07/23/simcol3d-3d-reconstruction-during-colonoscopy-challenge/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Sun, 23 Jul 2023 12:25:00 +0000</pubDate>
+				<category><![CDATA[MyPublications]]></category>
+		<guid isPermaLink="false">./../index.html?p=854</guid>
+
+					<description><![CDATA[Colorectal cancer is one of the most common cancers in the world. While colonoscopy is an effective screening technique, navigating an endoscope through the colon to detect polyps is challenging. A 3D map of the observed surfaces could enhance the identification of unscreened colon tissue and serve as a training platform. However, reconstructing the colon&#8230;&#160;<a href="./../2023/07/23/simcol3d-3d-reconstruction-during-colonoscopy-challenge/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">SimCol3D &#8211; 3D Reconstruction during Colonoscopy Challenge</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Colorectal cancer is one of the most common cancers in the world. While colonoscopy is an effective screening technique, navigating an endoscope through the colon to detect polyps is challenging. A 3D map of the observed surfaces could enhance the identification of unscreened colon tissue and serve as a training platform. However, reconstructing the colon from video footage remains unsolved due to numerous factors such as self-occlusion, reflective surfaces, lack of texture, and tissue deformation that limit feature-based methods. Learning-based approaches hold promise as robust alternatives, but necessitate extensive datasets. By establishing a benchmark, the 2022 EndoVis sub-challenge SimCol3D aimed to facilitate data-driven depth and pose prediction during colonoscopy. The challenge was hosted as part of MICCAI 2022 in Singapore. Six teams from around the world and representatives from academia and industry participated in the three sub-challenges: synthetic depth prediction, synthetic pose prediction, and real pose prediction. This paper describes the challenge, the submitted methods, and their results. We show that depth prediction in virtual colonoscopy is robustly solvable, while pose estimation remains an open research question.</p>
+
+
+
+<p><a href="https://www.researchgate.net/publication/372547675_SimCol3D_--_3D_Reconstruction_during_Colonoscopy_Challenge#fullTextFileContent">The Full paper is available here</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/07/23/simcol3d-3d-reconstruction-during-colonoscopy-challenge/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>ColNav: Real-Time Colon Navigation for Colonoscopy</title>
+		<link>./../2023/06/07/colnav-real-time-colon-navigation-for-colonoscopy/index.html</link>
+					<comments>./../2023/06/07/colnav-real-time-colon-navigation-for-colonoscopy/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Wed, 07 Jun 2023 12:22:00 +0000</pubDate>
+				<category><![CDATA[MyPublications]]></category>
+		<guid isPermaLink="false">./../index.html?p=852</guid>
+
+					<description><![CDATA[Colorectal cancer screening through colonoscopy continues to be the dominant global standard, as it allows identifying pre-cancerous or adenomatous lesions and provides the ability to remove them during the procedure itself. Nevertheless, failure by the endoscopist to identify such lesions increases the likelihood of lesion progression to subsequent colorectal cancer. Ultimately, colonoscopy remains operator-dependent, and&#8230;&#160;<a href="./../2023/06/07/colnav-real-time-colon-navigation-for-colonoscopy/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">ColNav: Real-Time Colon Navigation for Colonoscopy</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>Colorectal cancer screening through colonoscopy continues to be the dominant global standard, as it allows identifying pre-cancerous or adenomatous lesions and provides the ability to remove them during the procedure itself. Nevertheless, failure by the endoscopist to identify such lesions increases the likelihood of lesion progression to subsequent colorectal cancer. Ultimately, colonoscopy remains operator-dependent, and the wide range of quality in colonoscopy examinations among endoscopists is influenced by variations in their technique, training, and diligence. This paper presents a novel real-time navigation guidance system for Optical Colonoscopy (OC). Our proposed system employs a real-time approach that displays both an unfolded representation of the colon and a local indicator directing to un-inspected areas. These visualizations are presented to the physician during the procedure, providing actionable and comprehensible guidance to un-surveyed areas in real-time, while seamlessly integrating into the physician&#8217;s workflow. Through coverage experimental evaluation, we demonstrated that our system resulted in a higher polyp recall (PR) and high inter-rater reliability with physicians for coverage prediction. These results suggest that our real-time navigation guidance system has the potential to improve the quality and effectiveness of Optical Colonoscopy and ultimately benefit patient outcomes.</p>
+
+
+
+<p><a href="https://arxiv.org/abs/2306.04269#:~:text=This%20paper%20presents%20a%20novel,directing%20to%20un%2Dinspected%20areas.">The Full paper is available on Arxiv</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2023/06/07/colnav-real-time-colon-navigation-for-colonoscopy/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>Estimating the coverage in 3d reconstructions of the colon from colonoscopy videos</title>
+		<link>./../2022/10/19/estimating-the-coverage-in-3d-reconstructions-of-the-colon-from-colonoscopy-videos/index.html</link>
+					<comments>./../2022/10/19/estimating-the-coverage-in-3d-reconstructions-of-the-colon-from-colonoscopy-videos/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Wed, 19 Oct 2022 12:19:00 +0000</pubDate>
+				<category><![CDATA[MyPublications]]></category>
+		<guid isPermaLink="false">./../index.html?p=850</guid>
+
+					<description><![CDATA[Published &#8211; Imaging Systems for GI Endoscopy workshop, the 25th International Conference on Medical Image Computing and Computer Assisted Intervention &#8211; MICCAI 2022 ISGIE Colonoscopy is the most common procedure for early detection and removal of polyps, a critical component of colorectal cancer prevention. Insufficient visual coverage of the colon surface during the procedure often&#8230;&#160;<a href="./../2022/10/19/estimating-the-coverage-in-3d-reconstructions-of-the-colon-from-colonoscopy-videos/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Estimating the coverage in 3d reconstructions of the colon from colonoscopy videos</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p><strong>Published</strong> &#8211; Imaging Systems for GI Endoscopy workshop, the 25th International Conference on Medical Image Computing and Computer Assisted Intervention &#8211; MICCAI 2022 ISGIE</p>
+
+
+
+<p>Colonoscopy is the most common procedure for early detection and removal of polyps, a critical component of colorectal cancer prevention. Insufficient visual coverage of the colon surface during the procedure often results in missed polyps. To mitigate this issue, reconstructing the 3D surfaces of the colon in order to visualize the missing regions has been proposed. However, robustly estimating the local and global coverage from such a reconstruction has not been thoroughly investigated until now. In this work, we present a new method to estimate the coverage from a reconstructed colon pointcloud. Our method splits a reconstructed colon into segments and estimates the coverage of each segment by estimating the area of the missing surfaces. We achieve a mean absolute coverage error of 3-6\% on colon segments generated from synthetic colonoscopy data and real colonography CT scans. In addition, we show good qualitative results on colon segments reconstructed from real colonoscopy videos.</p>
+
+
+
+<p><a href="https://arxiv.org/abs/2210.10459">The Full paper is available on Arxiv</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/10/19/estimating-the-coverage-in-3d-reconstructions-of-the-colon-from-colonoscopy-videos/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
+		<title>C3Fusion: Consistent Contrastive Colon Fusion, Towards Deep SLAM in Colonoscopy</title>
+		<link>./../2022/06/01/c3fusion-consistent-contrastive-colon-fusion-towards-deep-slam-in-colonoscopy/index.html</link>
+					<comments>./../2022/06/01/c3fusion-consistent-contrastive-colon-fusion-towards-deep-slam-in-colonoscopy/index.html#respond</comments>
+		
+		<dc:creator><![CDATA[root]]></dc:creator>
+		<pubDate>Wed, 01 Jun 2022 12:17:00 +0000</pubDate>
+				<category><![CDATA[MyPublications]]></category>
+		<guid isPermaLink="false">./../index.html?p=846</guid>
+
+					<description><![CDATA[3D colon reconstruction from Optical Colonoscopy (OC) to detect non-examined surfaces remains an unsolved problem. The challenges arise from the nature of optical colonoscopy data, characterized by highly reflective low-texture surfaces, drastic illumination changes and frequent tracking loss. Recent methods demonstrate compelling results, but suffer from: (1) frangible frame-to-frame (or frame-to-model) pose estimation resulting in&#8230;&#160;<a href="./../2022/06/01/c3fusion-consistent-contrastive-colon-fusion-towards-deep-slam-in-colonoscopy/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">C3Fusion: Consistent Contrastive Colon Fusion, Towards Deep SLAM in Colonoscopy</span></a>]]></description>
+										<content:encoded><![CDATA[
+<p>3D colon reconstruction from Optical Colonoscopy (OC) to detect non-examined surfaces remains an unsolved problem. The challenges arise from the nature of optical colonoscopy data, characterized by highly reflective low-texture surfaces, drastic illumination changes and frequent tracking loss. Recent methods demonstrate compelling results, but suffer from: (1) frangible frame-to-frame (or frame-to-model) pose estimation resulting in many tracking failures; or (2) rely on point-based representations at the cost of scan quality. In this paper, we propose a novel reconstruction framework that addresses these issues end to end, which result in both quantitatively and qualitatively accurate and robust 3D colon reconstruction. Our SLAM approach, which employs correspondences based on contrastive deep features, and deep consistent depth maps, estimates globally optimized poses, is able to recover from frequent tracking failures, and estimates a global consistent 3D model; all within a single framework. We perform an extensive experimental evaluation on multiple synthetic and real colonoscopy videos, showing high-quality results and comparisons against relevant baselines.</p>
+
+
+
+<p><a href="https://arxiv.org/abs/2206.01961">The Full paper is available on Arxiv</a></p>
+]]></content:encoded>
+					
+					<wfw:commentRss>./../2022/06/01/c3fusion-consistent-contrastive-colon-fusion-towards-deep-slam-in-colonoscopy/feed/index.html</wfw:commentRss>
+			<slash:comments>0</slash:comments>
+		
+		
+			</item>
+		<item>
 		<title>End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences</title>
 		<link>./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html</link>
 					<comments>./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html#respond</comments>
@@ -39,7 +163,7 @@
 
 					<description><![CDATA[tl;dr End-to-end deep-learning based approach to resolve the point cloud registration problem. Main steps are: LPD-Net is used to extract features and aggregate them with graph network. Self &#8211; attention mechanism is utilized to enhance the structure information of the PCL Cross &#8211; attention mechanism is deisned to enhace correpondences between the two PCLs Registration&#8230;&#160;<a href="./../2021/01/03/end-to-end-3d-point-cloud-learning-for-registration-task-usingvirtual-correspondences/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">End-to-End 3D Point Cloud Learning for Registration Task Using Virtual Correspondences</span></a>]]></description>
 										<content:encoded><![CDATA[
-<h2>tl;dr</h2>
+<h2 class="wp-block-heading">tl;dr</h2>
 
 
 
@@ -51,7 +175,7 @@
 
 
 
-<h2>Overall Impression</h2>
+<h2 class="wp-block-heading">Overall Impression</h2>
 
 
 
@@ -83,7 +207,7 @@
 
 
 
-<h2>Key Ideas</h2>
+<h2 class="wp-block-heading">Key Ideas</h2>
 
 
 
@@ -111,7 +235,7 @@
 
 					<description><![CDATA[Published in:&#160;2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Virtual keyboard enables user typing on any surface, including a plain paper or your desk. Some virtual keyboards give vibration feedback; some are projected on the typing surface, while others give different kind of visual feedback such as showing it on a smart&#8230;&#160;<a href="./../2020/12/31/a-single-camera-based-floating-virtual-keyboard-with-improved-touch-detection/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">A single camera based floating virtual keyboard with improved touch detection</span></a>]]></description>
 										<content:encoded><![CDATA[
-<h4><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a><br></h4>
+<h4 class="wp-block-heading"><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a><br></h4>
 
 
 
@@ -139,7 +263,7 @@
 
 					<description><![CDATA[Published in:&#160;2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel Personal coaching, performed by professionals such as psychologists, usually includes training for business as well as social situations such as job interviews, business meetings, interaction with a customer service provider, and more. This requires careful preparation in which, among other traits, the trainees&#8230;&#160;<a href="./../2020/12/31/automatic-identification-of-positive-or-negative-language/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Automatic identification of positive or negative language</span></a>]]></description>
 										<content:encoded><![CDATA[
-<h4><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a></h4>
+<h4 class="wp-block-heading"><strong>Published in:&nbsp;</strong><a href="https://ieeexplore.ieee.org/xpl/conhome/6365376/proceeding">2012 IEEE 27th Convention of Electrical and Electronics Engineers in Israel</a></h4>
 
 
 
@@ -167,7 +291,7 @@
 
 					<description><![CDATA[We present a novel method for motion segmentation called LAAV (Locally Affine Atom Voting). Our model&#8217;s main novelty is using sets of features to segment motion for all features in the scene. LAAV acts as a pre-processing pipeline stage for features in the image, followed by a fine-tuned version of the state-of-the-art Random Voting (RV)&#8230;&#160;<a href="./../2020/12/31/motion-segmentation-using-locally-affine-atom-voting/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Motion Segmentation Using Locally Affine Atom Voting</span></a>]]></description>
 										<content:encoded><![CDATA[
-<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img loading="lazy" src="./../wp-content/uploads/2020/12/111.png" alt="" class="wp-image-475" width="366" height="315"/></figure></div>
+<div class="wp-block-image is-style-default"><figure class="aligncenter size-large is-resized"><img decoding="async" fetchpriority="high" src="./../wp-content/uploads/2020/12/111.png" alt="" class="wp-image-475" width="366" height="315"/></figure></div>
 
 
 
@@ -203,160 +327,6 @@
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../2020/12/31/how-to-create-awesome-noise-that-is-actually-real/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>random paper 2020</title>
-		<link>./../2020/12/29/random-paper-2020/index.html</link>
-					<comments>./../2020/12/29/random-paper-2020/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Tue, 29 Dec 2020 16:55:17 +0000</pubDate>
-				<category><![CDATA[paper_2020]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=146</guid>
-
-					<description><![CDATA[]]></description>
-										<content:encoded><![CDATA[]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/29/random-paper-2020/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Speedup your CNN using Fast Dense Feature Extraction and PyTorch</title>
-		<link>./../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html</link>
-					<comments>./../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 20:33:42 +0000</pubDate>
-				<category><![CDATA[Blogs]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=106</guid>
-
-					<description><![CDATA[Back in March, we open-sourced our&#160;implementation of “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers”, Although not broadly known, The 2017 BMVC published paper offers an efficient and elegant solution on how to avoid computational redundancy when using patch based Convolution Neural networks. So in this post I’ll explain how the&#8230;&#160;<a href="./../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Speedup your CNN using Fast Dense Feature Extraction and PyTorch</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p id="d17e">Back in March, we open-sourced our&nbsp;<a href="https://github.com/erezposner/Fast_Dense_Feature_Extraction">implementation of “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers</a>”, Although not broadly known, The 2017 BMVC published paper offers an efficient and elegant solution on how to avoid computational redundancy when using patch based Convolution Neural networks. So in this post I’ll explain how the model works and show how to use it in a real applications.</p>
-
-
-
-<p id="37c4">I’ll cover two things: First, an&nbsp;overview of the method named “Fast Dense Feature Extraction with CNN&#8217;s that have Pooling or Striding Layers”. And, second, how to use this approach on an existing trained patch network to speed up inference time.</p>
-
-
-
-<p><a href="https://towardsdatascience.com/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch-dc32acbf12ef">The full story is available Medium</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/28/speedup-your-cnn-using-fast-dense-feature-extraction-and-pytorch/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>How To Perform Image Restoration Absolutely DataSet Free</title>
-		<link>./../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html</link>
-					<comments>./../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 20:32:34 +0000</pubDate>
-				<category><![CDATA[Blogs]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=103</guid>
-
-					<description><![CDATA[Image restoration with neural networks without learning Deep learning requires a large amount of data.&#160;This phrase has become popular among people who consider applying deep learning methods to their data. Concerns often made when not having “big” enough data mainly derive from the common belief that deep learning&#160;only&#160;works using massive amount of data. Well, This&#8230;&#160;<a href="./../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">How To Perform Image Restoration Absolutely DataSet Free</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Image restoration with neural networks without learning</strong></p>
-
-
-
-<p id="f85d"><strong>Deep learning requires a large amount of data.&nbsp;</strong>This phrase has become popular among people who consider applying deep learning methods to their data. Concerns often made when not having “big” enough data mainly derive from the common belief that deep learning&nbsp;<mark>only</mark>&nbsp;works using massive amount of data. Well, This is not true.</p>
-
-
-
-<p id="f633">Although for some cases you actually do need massive amount of data, there are some networks that could be trained on a single image. On top of that, In practice, even without large datasets, the structure of the network itself could be preventing deep networks from over-fitting.</p>
-
-
-
-<p><a href="https://towardsdatascience.com/how-to-perform-image-restoration-absolutely-dataset-free-d08da1a1e96d">The full story is available Medium</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/28/how-to-perform-image-restoration-absolutely-dataset-free/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Detection Free Human Instance Segmentation using Pose2Seg and PyTorch</title>
-		<link>./../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html</link>
-					<comments>./../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 20:31:22 +0000</pubDate>
-				<category><![CDATA[Blogs]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=100</guid>
-
-					<description><![CDATA[Taking into consideration the uniqueness of Human In recent years, research related to “humans” in the computer vision community has become increasingly active because of the high demand for real-life applications, among them is instance segmentation. The standard approach to image instance segmentation is to perform the object detection first, and then segment the object&#8230;&#160;<a href="./../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Detection Free Human Instance Segmentation using Pose2Seg and PyTorch</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Taking into consideration the uniqueness of Human</strong></p>
-
-
-
-<p id="66d4">In recent years, research related to “humans” in the computer vision community has become increasingly active because of the high demand for real-life applications, among them is instance segmentation.</p>
-
-
-
-<p id="b5c7">The standard approach to image instance segmentation is to perform the object detection first, and then segment the object from the detection bounding-box. More recently, deep learning methods like&nbsp;<a href="https://engineering.matterport.com/splash-of-color-instance-segmentation-with-mask-r-cnn-and-tensorflow-7c761e238b46">Mask R-CNN</a>&nbsp;perform them jointly. However, as human associated tasks becoming more common like human recognition, tracking etc. one might wonder why does the uniqueness of the “human” category does not taken into account.</p>
-
-
-
-<p><a href="https://towardsdatascience.com/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch-72f48dc4d23e">The full story is available Medium</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/28/detection-free-human-instance-segmentation-using-pose2seg-and-pytorch/feed/index.html</wfw:commentRss>
-			<slash:comments>0</slash:comments>
-		
-		
-			</item>
-		<item>
-		<title>Deep Video Portraits</title>
-		<link>./../2020/12/28/whats-on-my-desk/index.html</link>
-					<comments>./../2020/12/28/whats-on-my-desk/index.html#respond</comments>
-		
-		<dc:creator><![CDATA[root]]></dc:creator>
-		<pubDate>Mon, 28 Dec 2020 17:49:27 +0000</pubDate>
-				<category><![CDATA[Blogs]]></category>
-		<guid isPermaLink="false">https://erezposnerportfolio.wordpress.com/?p=3</guid>
-
-					<description><![CDATA[Photo-realistic re-animation of portrait videos using only an input video Synthesizing and editing video portraits—i.e., videos framed to show a person’s head and upper body—is an important problem in computer graphics, with applications in video editing and movie postproduction, visual effects, visual dubbing, virtual reality, and telepresence, among others. The problem of synthesizing a photo-realistic&#8230;&#160;<a href="./../2020/12/28/whats-on-my-desk/index.html" class="" rel="bookmark">Read More &#187;<span class="screen-reader-text">Deep Video Portraits</span></a>]]></description>
-										<content:encoded><![CDATA[
-<p><strong>Photo-realistic re-animation of portrait videos using only an input video</strong></p>
-
-
-
-<p id="470c">Synthesizing and editing video portraits—i.e., videos framed to show a person’s head and upper body—is an important problem in computer graphics, with applications in video editing and movie postproduction, visual effects, visual dubbing, virtual reality, and telepresence, among others.</p>
-
-
-
-<p id="c77b">The problem of synthesizing a photo-realistic video portrait of a target actor that mimics the actions of a source actor—and especially where the source and target actors can be different subjects—is still an open problem.</p>
-
-
-
-<p id="1921">There hasn’t been an approach that enables one to take full control of the rigid head pose, face expressions, and eye motion of the target actor; even face identity can be modified to some extent. Until now.</p>
-
-
-
-<p id="b3dc">In this post, I’m going to review&nbsp;<a href="https://arxiv.org/pdf/1805.11714.pdf">“Deep Video Portraits”</a>, which presents a novel approach that enables photo-realistic re-animation of portrait videos using only an input video.</p>
-
-
-
-<p id="c35c">In this post, I’ll cover two things: First, a short definition of a DeepFake. Second, an overview of the paper “Deep Video Portraits” in the words of the authors.</p>
-
-
-
-<p><a href="https://heartbeat.fritz.ai/deep-video-portraits-f0f4a136546a">The full story is available Medium</a></p>
-]]></content:encoded>
-					
-					<wfw:commentRss>./../2020/12/28/whats-on-my-desk/feed/index.html</wfw:commentRss>
 			<slash:comments>0</slash:comments>
 		
 		
