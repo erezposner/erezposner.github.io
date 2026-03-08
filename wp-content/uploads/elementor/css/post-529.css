@@ -166,3 +166,7 @@ body.home button:focus-visible {
     transition: none;
   }
 }
+
+.elementor-529 .elementor-element.elementor-element-592b404 .elementor-icon svg {
+  display: block;
+}
