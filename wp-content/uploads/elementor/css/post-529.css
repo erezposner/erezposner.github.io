@@ -6,31 +6,30 @@ body.home {
 }
 
 body.home .header-main-inner {
-  backdrop-filter: blur(12px);
-  background: rgba(255, 255, 255, 0.85);
-  border-bottom: 1px solid rgba(14, 40, 80, 0.08);
-  box-shadow: 0 10px 35px rgba(16, 46, 88, 0.08);
+  background: #000000;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  box-shadow: none;
 }
 
 body.home .site-logo img {
-  border-radius: 14px;
-  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.18);
+  border-radius: 8px;
+  box-shadow: none;
 }
 
 body.home .primary-menu-ul > li > a {
-  border-radius: 999px;
-  color: #173f72;
-  font-weight: 600;
-  letter-spacing: 0.01em;
-  padding: 0.55rem 1rem;
-  transition: all 0.22s ease;
+  border-radius: 0;
+  color: #ffffff;
+  font-weight: 500;
+  letter-spacing: 0;
+  padding: 0;
+  transition: color 0.2s ease;
 }
 
 body.home .primary-menu-ul > li > a:hover,
 body.home .primary-menu-ul > li.current-menu-item > a {
-  background: linear-gradient(135deg, #2456a6 0%, #1b7fd1 100%);
-  color: #ffffff;
-  transform: translateY(-1px);
+  background: transparent;
+  color: #0366d6;
+  transform: none;
 }
 
 .elementor-529 .elementor-element.elementor-element-e670c53 .wpcap-grid-container {
@@ -68,10 +67,6 @@ body.home .primary-menu-ul > li.current-menu-item > a {
 }
 
 @media (max-width: 767px) {
-  body.home .header-main-inner {
-    backdrop-filter: none;
-  }
-
   .elementor-529 .elementor-element.elementor-element-e670c53 .post-grid-inner {
     padding: 1rem;
   }
