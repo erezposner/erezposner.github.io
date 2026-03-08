@@ -299,11 +299,11 @@
 
 
 
-<p id="1cdf">In this post, we are going to focus on “Double-DIP”, a unified framework for unsupervised layer decomposition of a single image, based on several&nbsp;<a href="https://towardsdatascience.com/how-to-perform-image-restoration-absolutely-dataset-free-d08da1a1e96d">“Deep-image-Prior” (DIP)&nbsp;</a>networks.</p>
+<p id="1cdf">In this post, we are going to focus on “Double-DIP”, a unified framework for unsupervised layer decomposition of a single image, based on several&nbsp;“Deep-image-Prior” (DIP)&nbsp;networks.</p>
 
 
 
-<p><a href="https://towardsdatascience.com/why-you-should-double-dip-for-natural-image-decomposition-ee65b1c1c9bc">The full story is available Medium</a></p>
+<p><a href="https://medium.com/data-science/why-you-should-double-dip-for-natural-image-decomposition-ee65b1c1c9bc">The full story is available Medium</a></p>
 ]]></content:encoded>
 					
 					<wfw:commentRss>./../../../2020/12/28/staying-organized/feed/index.html</wfw:commentRss>
